@@ -15,6 +15,7 @@ function Home() {
   return (
     <div>
       <h1>Upcoming Appointments</h1>
+     <h1>Upcoming Appointments</h1>
       {appointments.map(appointment => (
         <div key={appointment.id}>
           <h2>{appointment.service}</h2>
